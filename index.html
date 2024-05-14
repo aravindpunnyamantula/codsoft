@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X - UA - Compitable" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Personal- Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cb6393663b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+          <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Front End Developer</p>
+            <h1>Hi, I'm <span>Aravind</span><br>from India.</h1>
+          </div>
+        </div>
+      </div>
+      <!------   About ------>
+      <div id="About">
+        <div class="container">
+          <div class="row">
+            <div class="about_col_1">
+              <img src="images/image1.jpg.jpg">
+            </div>
+            <div class="about_col_2">
+              <h1 class="sub_title">About Me</h1>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+              <div class="tab-titles">
+                <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-link" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML & CSS</span><br>Designing web interference.</li>
+                  <li><span>Web development</span><br>web app development.</li>
+                  <li><span>App development</span><br>Building android apps.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>EMOTIONS RECOGNITION AI</span><br>At JNTUV University.</li>
+                  <li><span>Two Months</span><br>internship in web development Domain.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>B.Tech (2023-27)</span><br>Aditya college of engineering.</li>
+                  <li><span>Intermediate (2021-23)</span><br>Manasa junior college.</li>
+                  <li><span>10th (2021)</span><br>Pragathi E.M. school.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------services--------------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub_title">My services</h1>
+        </div>
+        <div class="service-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p> Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crown"></i>
+          <h2>HtML & CSS</h2>
+          <p> Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p> Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order.</p>
+          <a href="#">Learn more</a>
+        </div>
+        </div>
+      </div>
+      <!----- portfolio ----->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub_title">My Portfolio</h1>
+        </div>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/image1.jpg" >
+            <div class="layer">
+              <h3>Mobile application</h3>
+              <p>This is a mobile application you can download it from playstore.  </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/image2.jpg" >
+            <div class="layer">
+              <h3>Music application</h3>
+              <p>This is a mobile application you can download it from playstore.  </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/image3.jpg" >
+            <div class="layer">
+              <h3>Payment application</h3>
+              <p>This is a mobile application you can download it from playstore.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              
+            </div>
+          </div>
+          
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+      <!-- contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact_left">
+              <h1 class="sub_title">Contact me</h1>
+              <p><i class="fa-regular fa-envelope"></i>&nbsp;@aravindpunyamantula630</p>
+              <p><i class="fa-solid fa-phone"></i>&nbsp;8884342224</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="images/my cv.pdf"  download class="btn btn2"  >Download CV</a>
+            </div>
+            <div class="contact_right">
+              <form>
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message"   rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &#169Aravind.<i class="fa-solid fa-heart"></i></p>
+      </div>
+
+     <script>
+      var tablinks = document.getElementsByClassName("tab-link");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+
+     </script>
+     <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+     </script>
+    </body>
+
+</html>
+<!------------THE END------------>
